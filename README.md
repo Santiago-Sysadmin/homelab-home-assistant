@@ -4,6 +4,8 @@
 >
 > **Política de publicación:** este repositorio no contiene direcciones IP, puertos, MACs, nombres de red Wi-Fi, tokens, identificadores de webhook ni información que revele horarios o presencia en casa. Los nombres de dispositivos y de entidades se han generalizado.
 
+**EN —** Home Assistant OS runs as a VM on Proxmox and controls the home locally (Zigbee via ZHA, Alexa via Matter). This repo documents the migration (keeping all paired devices), a cleanup of dead integrations, the diagnosis of an unstable Zigbee mesh caused by Wi-Fi interference, and how the server publishes its own health sensors to Home Assistant to drive mobile alerts. Documentation is in Spanish; no network details are published.
+
 ## Resumen
 
 Home Assistant OS (HAOS) se ejecuta como máquina virtual en Proxmox VE y controla la domótica de la vivienda de forma **local**: luces y relés Zigbee, integración con Alexa mediante Matter, sensores y avisos al móvil. Además actúa como **centro de alertas del propio servidor**: recibe sensores de Proxmox y notifica problemas (cortes de luz, copias atrasadas, temperatura, memoria…).
