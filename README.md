@@ -23,6 +23,12 @@ Proxmox VE
       └── Notificaciones .. app móvil y bot de Telegram
 ```
 
+### Panel «Servidor» (captura real)
+
+![Panel Servidor de Home Assistant](docs/img/panel-servidor.png)
+
+Temperatura, memoria, carga, batería y estado de las copias del servidor, alimentados por los sensores que publica el host (ver [sensores](docs/sensores-servidor.md)).
+
 ## Qué se ha hecho
 
 ### 1. Migración desde la instalación anterior
